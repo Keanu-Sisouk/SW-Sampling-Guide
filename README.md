@@ -22,7 +22,7 @@ In the folder `testSW`, you can run the following command:
 ```bash
 python3 run_python_scripts.py
 ```
-to run all the methods.
+to run all the methods. Otherwise choose a file with format name `test_*.py` to run.
 Accordingly the ouputs are generated in a npy format to be directly used for plotting.
 
 
