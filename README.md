@@ -1,4 +1,4 @@
-# SW-Guide
+# SW-Sampling-Guide
 
 This github repository contains the code used for the experiment on Gaussian Mixture in the paper "A User's Guide to Sampling Strategies for Sliced Optimal Transport".
 
