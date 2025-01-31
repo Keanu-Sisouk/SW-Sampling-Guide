@@ -13,7 +13,7 @@ Regarding the requirements for the code used in the ICML2024 paper:
 "Sliced-Wasserstein Estimation with Spherical Harmonic as Control Variates", 
 Rémi Leluc, Aymeric Dieuleveut, François Portier, Johan Segers and Aigerim Zhuman. [Paper](https://arxiv.org/abs/2402.01493),
 please see the following repositories:
-[SHCV repository](https://github.com/RemiLELUC/SHCV),
+[SHCV repository](https://github.com/RemiLELUC/SHCV), 
 [Spherical Harmonics](https://github.com/vdutor/SphericalHarmonics).
 
 ## Running the scripts
