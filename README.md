@@ -25,4 +25,8 @@ python3 run_python_scripts.py
 to run all the methods. Otherwise choose a file with format name `test_*.py` to run.
 Accordingly the ouputs are generated in a npy format to be directly used for plotting.
 
+## Supplementary notes
+
+The scripts `generated_gaussian_toys.py` and `compute_ground_truths.py` should only be ran to generate new data and new ground truths (true SW). Be aware that the second script has a long computation time (~5 days).
+To avoid unecessary computation time, the s-Riesz configuration points are already pre-computed and stored in npy format.
 
