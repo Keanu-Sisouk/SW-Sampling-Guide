@@ -81,7 +81,7 @@ for j in range(len(ground_truths)):
             prev_len = len(new_points)
 
         all_lists.append(errors_list)
-        np.save("timers_unif_SWIncluded_PointsStored_in_"+str(d)+"D.npy", np.array(timers_list))
+        np.save("timers_unif_SWIncluded_in_"+str(d)+"D.npy", np.array(timers_list))
         # print(p)
     mean_error_list = [0 for i in range(len(all_lists[0]))]
     for L in all_lists:
@@ -103,10 +103,10 @@ for j in range(len(ground_truths)):
 
     # print("RUNNING")
     # print(timers_list)
-    temp = np.load("errors_unif_SWIncluded_in_"+str(d)+"D.npy")    
-    temp2 = [x for x in temp] + mean_error_list[15:]
+    # temp = np.load("errors_unif_SWIncluded_in_"+str(d)+"D.npy")    
+    # temp2 = [x for x in temp] + mean_error_list[15:]
 
-    np.save("errors_unif_SWIncluded_PointsStored_in_"+str(d)+"D.npy", np.array(temp2))
+    np.save("errors_unif_SWIncluded_in_"+str(d)+"D.npy", np.array(mean_error_list))
 
 np.save("N_list.npy", np.array(N_list))
 

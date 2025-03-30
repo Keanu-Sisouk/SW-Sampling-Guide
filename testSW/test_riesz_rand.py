@@ -95,6 +95,6 @@ for j in range(len(dim_list)):
     # print("PASSED DIMENSION" + str(d))
     # np.save("timers_riesz_secver_in_"+str(d)+"D.npy", np.array(timers_list))
 
-    np.save("new_errors_riesz_rand_secver_in_"+str(d)+"D.npy", np.array(mean_errors_list))
+    np.save("errors_riesz_rand_in_"+str(d)+"D.npy", np.array(mean_errors_list))
 
 # np.save("N_list.npy", np.array(N_list))

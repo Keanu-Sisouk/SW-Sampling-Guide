@@ -47,8 +47,8 @@ for j in range(len(ground_truths)):
         # SW_list = []
         prev_SW = 0
         prev_len = 0
-        if (p % 5 == 0):
-            print("BOUYA1")
+        # if (p % 5 == 0):
+            # print("BOUYA1")
 
         for i in range(len(N_list)):
 
@@ -103,10 +103,10 @@ for j in range(len(ground_truths)):
 
     # print("RUNNING")
     # print(timers_list)
-    temp = np.load("errors_ortho_SWIncluded_in_"+str(d)+"D.npy")    
-    temp2 = [x for x in temp] + mean_error_list[15:]
+    # temp = np.load("errors_ortho_SWIncluded_in_"+str(d)+"D.npy")    
+    # temp2 = [x for x in temp] + mean_error_list[15:]
 
-    np.save("errors_ortho_SWIncluded_PointsStored_in_"+str(d)+"D.npy", np.array(temp2))
+    np.save("errors_ortho_SWIncluded_in_"+str(d)+"D.npy", np.array(mean_error_list))
 
 np.save("N_list.npy", np.array(N_list))
 
