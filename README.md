@@ -7,7 +7,7 @@ This github repository contains the code used for the experiment on Gaussian Mix
 To compute the Sliced Wasserstein distance, the library Python Optimal Transport is needed:
 [POT library](https://pythonot.github.io)
 
-Other functions come from the scipy library.
+Other functions come from the scipy and torch libraries.
 
 Regarding the requirements for the code used in the ICML2024 paper: 
 "Sliced-Wasserstein Estimation with Spherical Harmonic as Control Variates", 
